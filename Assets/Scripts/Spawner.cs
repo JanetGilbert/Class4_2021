@@ -8,7 +8,7 @@ public class Spawner : MonoBehaviour
     public int addPerFrame = 5;
     public float maxDist = 100.0f;
     private Renderer[] cachedRenderer;
-    public int addAtStart = 10000;
+    public int addAtStart = 99999; // MORE!
 
 
     // Start is called before the first frame update
